@@ -1,0 +1,103 @@
+/* This section is used by the fifteen game. */
+#table{
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+  }
+  
+  .tile {
+    width: 50px;
+    height: 50px;
+    border: 2px solid #222;
+    text-align: center;
+    /* Webkit (Chrome and Safari) */
+    background: -webkit-gradient(linear, top, bottom,color-stop(15%, white),color-stop(80%, darkgray),);
+    /* Mozilla */
+    background: -moz-linear-gradient(top, white 15%, darkgray 90%);  
+    /* Internet Explorer */
+    background: linear-gradient(90deg, white 15%, darkgray 90%);
+    color: #000;
+    cursor: pointer;
+  }
+  
+  .blank {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+  }
+  
+  #moves {
+    border: 2px solid #222;
+    /* Webkit (Chrome and Safari) */
+    background: -webkit-gradient(linear, top, bottom,color-stop(15%, white),color-stop(80%, darkgray),);
+    /* Mozilla */
+    background: -moz-linear-gradient(top, white 15%, darkgray 90%);  
+    /* Internet Explorer */
+    background: linear-gradient(90deg, white 15%, darkgray 90%);
+    font-weight: bold;
+    padding: 2px 5px;
+    color: #000;
+  }
+  /* end fifteen game */
+  
+  body { 
+    background: #fff;
+    color: #330000; 
+    font-family: Arial, Verdana, sans-serif;
+  }
+  
+  h1 { 
+    color: #000000; 
+    font-family: Georgia, "Times New Roman", serif; 
+    text-align: center;
+  }
+  a {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  p {
+    font-size: 1.2em;
+  }
+  
+  table {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  
+  
+  #wrapper {  
+   /* background-color: #440300;*/ /*this color displays in the navigation bar*/
+    min-width: 700px;
+    text-align: center;
+    /*box-shadow: 5px 5px 5px #888;*/
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+  }
+  
+  #content {
+    padding-top: 10px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #000000;
+  }
+  
+
+  .add-box{
+      border-radius: 15px;
+      border: solid 1px #616161;
+      max-width: 200px !important;
+      margin: auto;
+      padding:20px
+  }
+  #tablePlus{
+      margin-top:20px
+  }
+  #tablePlus table{
+      margin-top:20px
+  }
+
